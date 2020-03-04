@@ -8,7 +8,6 @@ class AddPanel extends React.Component {
         label: ""
     };
     setValue = value => {
-        console.log(value);
         this.setState({ label: value });
     };
     makeDefault = val => {
